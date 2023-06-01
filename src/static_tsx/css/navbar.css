@@ -1,0 +1,51 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: cursive;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50px;
+    border: 1px solid rgb(31, 29, 29);
+    
+  }
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(31, 29, 29);
+    color: #ffffff;
+  }
+  
+.navbar li{
+      cursor: pointer;
+  }
+
+.navbar li:hover{
+    background-color: rgb(234, 73, 14);
+}
+
+.logo{
+    height: 50px;
+    width: 150px;
+}
