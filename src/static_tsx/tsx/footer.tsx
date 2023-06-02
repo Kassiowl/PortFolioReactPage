@@ -8,14 +8,16 @@ function Footer() {
             <footer className="footer">
                 <div className="socialMedia">
                     <h3>Social media</h3>
-                    <div className="icon">
-                        <img src={Linkedin} alt="linkedin" width={"100px"} height={"100px"}/>
-                    </div>
-                    <div className="icon">
-                        <img src={Medium} alt="medium" width={"100px"} height={"100px"}/>
-                    </div>
-                    <div className="icon">
-                        <img src={Github} alt="github" width={"100px"} height={"100px"}/>
+                    <div className="icon-container">
+                        <div className="icon">
+                            <img src={Linkedin} alt="linkedin" width={"100px"} height={"100px"}/>
+                        </div>
+                        <div className="icon">
+                            <img src={Medium} alt="medium" width={"100px"} height={"100px"}/>
+                        </div>
+                        <div className="icon">
+                            <img src={Github} alt="github" width={"100px"} height={"100px"}/>
+                        </div>
                     </div>
                 </div>
             </footer>

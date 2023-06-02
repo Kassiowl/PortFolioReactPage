@@ -3,28 +3,31 @@
     vertical-align: top ;
     height:500px;
 }
-.socialMedia{
-    height:auto;
-    width: auto;
+.icon-container{
     display: flex;
-    text-align: center;
-    justify-content: center; /* Align items horizontally in the center */
-    text-align: center;
-}
-.socialMedia h3{
-    color: white;
+    align-items: center;
     justify-content: center;
+}
+footer h3{
+    color: white;
+    margin-bottom: 50px;
     
 }
 
 .icon{
     height: 150px;
     width: 150px;
-  
+    margin-right: 10px; 
+}
+
+.socialMedia{
+    text-align: center;
+    
+    
 }
 
 .socialMedia img{
-    margin: 50px;
+    margin-right:10px;
 }
 
 .footer img:hover{
