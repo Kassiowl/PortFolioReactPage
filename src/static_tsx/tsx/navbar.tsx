@@ -1,22 +1,28 @@
 import "../css/navbar.css"
-import logo from '../../logo.svg';
+import Signature from '../../Signature.png';
 
 function NavBar() {
     return (
         <div>
             <nav className="navbar">
-                <img src={logo} alt="logo" width={"150px"} height={"50px"}/>
+                <img src={Signature} alt="logo" width={"150px"} height={"50px"}/>
                 <li>
-                    Primeiro Link
+                    About me
                 </li>
                 <li>
-                    Segundo Link
+                    Portfolio
                 </li>
                 <li>
-                    Terceiro Link
+                    Testimonials
                 </li>
                 <li>
-                    Quarto Link
+                    My Experiences
+                </li>
+                <li>
+                    Highlight Projects
+                </li>
+                <li>
+                    Contact me!
                 </li>
             </nav>
         </div>

@@ -36,16 +36,27 @@
     background-color: rgb(31, 29, 29);
     color: #ffffff;
   }
-  
+
+.navbar:hover li {
+   
+    border: 1px solid rgb(42, 40, 40);
+  }
+
+  .navbar:hover {
+    background-color: rgb(42, 40, 40);
+    transition: all 1s ease;
+   
+  }
+
+
 .navbar li{
       cursor: pointer;
   }
 
+.navbar img{
+  margin-right: 100px;
+}
 .navbar li:hover{
     background-color: rgb(234, 73, 14);
-}
-
-.logo{
-    height: 50px;
-    width: 150px;
+    transition: all 1.5s ease;
 }

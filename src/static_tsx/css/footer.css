@@ -1,0 +1,36 @@
+.footer{
+    background-color:rgb(23, 21, 21);
+    vertical-align: top ;
+    height:500px;
+}
+.socialMedia{
+    height:auto;
+    width: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center; /* Align items horizontally in the center */
+    text-align: center;
+}
+.socialMedia h3{
+    color: white;
+    justify-content: center;
+    
+}
+
+.icon{
+    height: 150px;
+    width: 150px;
+  
+}
+
+.socialMedia img{
+    margin: 50px;
+}
+
+.footer img:hover{
+    transform: rotate(56deg);
+    transition: transform .3s ease-in-out;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
