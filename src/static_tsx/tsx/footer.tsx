@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div>
             <footer className="footer">
-                <div className="socialMedia">
+                <div className="social-media">
                     <h3>Social media</h3>
                     <div className="icon-container">
                         <div className="icon">

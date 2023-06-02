@@ -1,11 +1,10 @@
 .footer{
     background-color:rgb(23, 21, 21);
     vertical-align: top ;
-    height:500px;
+
 }
 .icon-container{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 footer h3{
@@ -20,13 +19,13 @@ footer h3{
     margin-right: 10px; 
 }
 
-.socialMedia{
+.social-media{
     text-align: center;
     
     
 }
 
-.socialMedia img{
+.social-media img{
     margin-right:10px;
 }
 
