@@ -1,0 +1,11 @@
+h2,p{
+    color: white;
+    margin-bottom: 5px;
+}
+.about-me{
+    width:500px;
+
+    text-align: justify;
+    padding-top: 100px;
+    margin-left: 50px;
+}

@@ -9,7 +9,6 @@ import { Link, BrowserRouter } from 'react-router-dom';
 
 function Footer() {
     return (
-        <div>
             <footer className="footer">
                 <div className="social-media">
                     <h3>Social media</h3>
@@ -56,7 +55,6 @@ function Footer() {
                     </div>
                 </div>
             </footer>
-        </div>
       );
   }
   
