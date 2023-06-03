@@ -6,33 +6,62 @@
 .icon-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+    
 }
 footer h3{
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     
 }
 
 .icon{
-    height: 150px;
-    width: 150px;
-    margin-right: 10px; 
+    height: 110px;
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap
+
 }
 
 .social-media{
     text-align: center;
-    
-    
+    height: 400px;
+    width: 400px;
+    float: right;
+    padding-top: 20px;
+}
+
+.tecnology-stacks{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    padding-top: 20px;
 }
 
 .social-media img{
     margin-right:10px;
+    filter: grayscale(100%);
+}
+.tecnology-stacks img{
+    margin-right:10px;
+    filter: grayscale(100%);
 }
 
+
 .footer img:hover{
-    transform: rotate(56deg);
+    transform: rotate(10deg);
     transition: transform .3s ease-in-out;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
+    animation: toColor 2s forwards;
 }
+
+@keyframes toColor {
+    from {
+      filter: grayscale(100%); /* Start with a black and white image */
+    }
+    to {
+      filter: grayscale(0%); /* Transition to a fully colored image */
+    }
+  }
