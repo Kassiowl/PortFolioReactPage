@@ -18,7 +18,7 @@ function AboutMe() {
           Quibusdam, aut quas voluptatibus ipsum at rem dolorum! Distinctio error maxime officiis, vero reiciendis, 
           quis nemo neque aperiam eius perspiciatis accusantium veniam.</p>
         </div>
-        <div className="photo">
+        <div className="person">
           <img src={Picture} alt="person" />
         </div>
       </div>

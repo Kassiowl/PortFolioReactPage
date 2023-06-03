@@ -5,15 +5,16 @@ h2,p{
 
 .text{
     width: 500px;
-    float: left;
 }
 .about-me{
-    width:1000px;
+    width:5000px;
     text-align: justify;
     padding-top: 100px;
     margin-left: 50px;
+    display: flex;
 }
 .person{
-    padding-left: 500px;
     width:500px;
+      
+ 
 }
