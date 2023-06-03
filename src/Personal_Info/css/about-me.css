@@ -2,10 +2,18 @@ h2,p{
     color: white;
     margin-bottom: 5px;
 }
-.about-me{
-    width:500px;
 
+.text{
+    width: 500px;
+    float: left;
+}
+.about-me{
+    width:1000px;
     text-align: justify;
     padding-top: 100px;
     margin-left: 50px;
+}
+.person{
+    padding-left: 500px;
+    width:500px;
 }
