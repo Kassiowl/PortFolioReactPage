@@ -7,9 +7,6 @@ function NavBar() {
             <nav className="navbar">
                 <img src={Signature} alt="logo" width={"150px"} height={"50px"}/>
                 <li>
-                    About me
-                </li>
-                <li>
                     Portfolio
                 </li>
                 <li>
