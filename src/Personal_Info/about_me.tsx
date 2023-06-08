@@ -10,7 +10,7 @@ function AboutMe() {
         <Container fluid="xs">
           <Row>
             <Col sm={12} md={8} lg={6} xxl={5}>
-              <div className="text">
+              <div className="text mb-4">
               <h2>About me</h2>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Impedit esse soluta similique cumque quo nobis dolores labore voluptate nesciunt aliquam obcaecati repudiandae, 

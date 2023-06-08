@@ -1,21 +1,23 @@
 .footer{
     background-color:rgb(23, 21, 21);
-    position: absolute;
-    bottom: 0;
     width:100%;
-    min-height: 300px;
+    min-height: 150px;
 }
 
 
 .social-media img{
-    margin-right:10px;
+    padding: 10px;
     filter: grayscale(100%);
 }
 .tecnology-stacks img{
-    margin-right:10px;
+    padding: 10px;
     filter: grayscale(100%);
 }
 
+.image-div{
+  min-width: 100px;
+  float:left; 
+}
 
 .footer img:hover{
     transform: rotate(10deg);

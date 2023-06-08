@@ -15,7 +15,7 @@ h2,p{
     margin-left: 500px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
     .person {
         margin-left: 0; 
     }
