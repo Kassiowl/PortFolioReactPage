@@ -4,16 +4,14 @@ import './App.css';
 import NavBar from './static_tsx/tsx/navbar';
 import Footer from './static_tsx/tsx/footer';
 import AboutMe from './Personal_Info/about_me';
-
+import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
  
     <div className="App">
       <NavBar />
       <div className='main bg'>
-        <div className='star-background'>
           <AboutMe />
-        </div>
       </div>
       <Footer />
     </div>

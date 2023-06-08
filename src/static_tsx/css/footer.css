@@ -1,45 +1,11 @@
 .footer{
     background-color:rgb(23, 21, 21);
-    grid-area: footer;
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 200px;            
-}
-.icon-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
-    
-}
-footer h3{
-    color: white;
-    margin-bottom: 15px;
-    
+    width:100%;
+    min-height: 300px;
 }
 
-.icon{
-    height: 110px;
-    width: 120px;
-    display: flex;
-    flex-wrap: wrap
-
-}
-
-.social-media{
-    text-align: center;
-    height: 200px;
-    width: 400px;
-    float: right;
-    padding-top: 20px;
-}
-
-.tecnology-stacks{
-    text-align: center;
-    height: 200px;
-    width: 400px;
-    padding-top: 20px;
-}
 
 .social-media img{
     margin-right:10px;

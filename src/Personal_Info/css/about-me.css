@@ -1,20 +1,22 @@
 h2,p{
     color: white;
-    margin-bottom: 5px;
+    max-width: 500px;
 }
 
-.text{
-    width: 500px;
-}
 .about-me{
-    width:5000px;
+
     text-align: justify;
     padding-top: 100px;
     margin-left: 50px;
-    display: flex;
+
 }
-.person{
-    width:500px;
-    margin-left: 700px;
- 
+
+.person {
+    margin-left: 500px;
+}
+
+@media (max-width: 1200px) {
+    .person {
+        margin-left: 0; 
+    }
 }
