@@ -2,20 +2,18 @@
     background-color:rgb(23, 21, 21);
     width:100%;
     min-height: 150px;
+    bottom: 0;
+    position: absolute;
 }
 
 
-.social-media img{
-    padding: 10px;
-    filter: grayscale(100%);
-}
-.tecnology-stacks img{
+
+.social-media img, .tecnology-stacks img{
     padding: 10px;
     filter: grayscale(100%);
 }
 
 .image-div{
-  min-width: 100px;
   float:left; 
 }
 

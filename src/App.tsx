@@ -12,8 +12,8 @@ function App() {
       <NavBar />
       <div className='main bg'>
           <AboutMe />
-      <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

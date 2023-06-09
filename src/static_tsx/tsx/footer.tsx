@@ -14,44 +14,47 @@ function Footer() {
                 <Container fluid>
                     <Row>
                         <Col className="social-media">
-                            <h3>Social media</h3>
-                            <BrowserRouter>
-                            <div className="image-div">
-                                <Link to={"https://www.linkedin.com/in/kassiowallace/"} target="_blank">
-                                    <img src={Linkedin} alt="linkedin" width={"70px"} height={"70px"}/>
-                                </Link>
-                            </div>
-                            <div className="image-div">
-                                <Link to={"https://medium.com/@kassiowl34"} target="_blank"> 
-                                    <img src={Medium} alt="medium" width={"70px"} height={"70px"}/>
-                                </Link>
-                            </div>
-                            <div className="image-div">
-                                <Link to={"https://github.com/Kassiowl"} target="_blank">
-                                    <img src={Github} alt="github" width={"70px"} height={"70px"}/>
-                                </Link>
-                            </div>
-                            </BrowserRouter>
+                                <h3>Social media</h3>
+                                <BrowserRouter>
+                                <div className="image-div">
+                                    <Link to={"https://www.linkedin.com/in/kassiowallace/"} target="_blank">
+                                        <img src={Linkedin} alt="linkedin" width={"70px"} height={"70px"}/>
+                                    </Link>
+                                </div>
+                                <div className="image-div">
+                                    <Link to={"https://medium.com/@kassiowl34"} target="_blank"> 
+                                        <img src={Medium} alt="medium" width={"70px"} height={"70px"}/>
+                                    </Link>
+                                </div>
+                                <div className="image-div">
+                                    <Link to={"https://github.com/Kassiowl"} target="_blank">
+                                        <img src={Github} alt="github" width={"70px"} height={"70px"}/>
+                                    </Link>
+                                </div>
+                                </BrowserRouter>
+
                         </Col>
-                        <Col className="tecnology-stacks">
+                        <Col className="tecnology-stacks d-flex flex-column align-items-end">
                             <h3>Tecnology Stacks</h3>
-                            <BrowserRouter>
-                            <div className="image-div">
-                                <Link to={"https://www.python.org/"} target="_blank" >
-                                    <img src={Python} alt="python" width={"70px"} height={"70px"}/>
-                                </Link>
+                            <div>
+                                <BrowserRouter>
+                                <div className="image-div">
+                                    <Link to={"https://www.python.org/"} target="_blank" >
+                                        <img src={Python} alt="python" width={"70px"} height={"70px"}/>
+                                    </Link>
+                                </div>
+                                <div className="image-div">
+                                    <Link to={"https://www.djangoproject.com/"} target="_blank" >
+                                        <img src={Django} alt="Django" width={"70px"} height={"70px"}/>
+                                    </Link>
+                                </div>
+                                <div className="image-div">
+                                    <Link to={"https://aws.amazon.com/pt/"} target="_blank" >
+                                        <img src={Aws} alt="aws" width={"70px"} height={"70px"}/>
+                                    </Link>
+                                </div>
+                                </BrowserRouter>
                             </div>
-                            <div className="image-div">
-                                <Link to={"https://www.djangoproject.com/"} target="_blank" >
-                                    <img src={Django} alt="Django" width={"70px"} height={"70px"}/>
-                                </Link>
-                            </div>
-                            <div className="image-div">
-                                <Link to={"https://aws.amazon.com/pt/"} target="_blank" >
-                                    <img src={Aws} alt="aws" width={"70px"} height={"70px"}/>
-                                </Link>
-                            </div>
-                            </BrowserRouter>
                     </Col>
                     </Row>
                 </Container>
