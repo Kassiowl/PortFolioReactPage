@@ -43,6 +43,9 @@
   .col-md-12{
     width: unset !important;
   }
+  .row-container{
+    text-align: center;
+  }
 }
 
 @keyframes toColor {

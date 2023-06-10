@@ -16,9 +16,9 @@ function Footer() {
                 <Container fluid className="footer-info">
                     <Row className="stack-columns">
                         <Col lg={6} md={12} className="social-media d-flex flex-column align-items-start">
-                                <h3 className="text-center">Social media</h3>
                                 <BrowserRouter>
                                     <Container className="row-container" fluid>
+                                        <h3>Social media</h3>
                                         <Row>
                                             <Col className="col-12">
                                             <div className="image-div">
