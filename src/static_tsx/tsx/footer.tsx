@@ -11,31 +11,56 @@ import { Col, Container, Row } from "react-bootstrap"
 function Footer() {
     return (
             <footer className="footer text-white">
-                <Container fluid>
+                <Container fluid className="footer-info">
                     <Row>
                         <Col className="social-media">
-                                <h3>Social media</h3>
+                                <h3 className="ms-4">Social media</h3>
                                 <BrowserRouter>
-                                <div className="image-div">
-                                    <Link to={"https://www.linkedin.com/in/kassiowallace/"} target="_blank">
-                                        <img src={Linkedin} alt="linkedin" width={"70px"} height={"70px"}/>
-                                    </Link>
-                                </div>
-                                <div className="image-div">
-                                    <Link to={"https://medium.com/@kassiowl34"} target="_blank"> 
-                                        <img src={Medium} alt="medium" width={"70px"} height={"70px"}/>
-                                    </Link>
-                                </div>
-                                <div className="image-div">
-                                    <Link to={"https://github.com/Kassiowl"} target="_blank">
-                                        <img src={Github} alt="github" width={"70px"} height={"70px"}/>
-                                    </Link>
-                                </div>
+                                    <Container className="row-container">
+                                        <Row>
+                                            <Col className="col-12">
+                                            <div className="image-div">
+                                                <Link to={"https://www.linkedin.com/in/kassiowallace/"} target="_blank">
+                                                    <img src={Linkedin} alt="linkedin" width={"70px"} height={"70px"}/>
+                                                </Link>
+                                            </div>
+                                            <div className="image-div">
+                                                <Link to={"https://medium.com/@kassiowl34"} target="_blank"> 
+                                                    <img src={Medium} alt="medium" width={"70px"} height={"70px"}/>
+                                                </Link>
+                                            </div>
+                                            <div className="image-div">
+                                                <Link to={"https://github.com/Kassiowl"} target="_blank">
+                                                    <img src={Github} alt="github" width={"70px"} height={"70px"}/>
+                                                </Link>
+                                            </div>
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col className="col-12">
+                                            <div className="image-div">
+                                                <Link to={"https://www.linkedin.com/in/kassiowallace/"} target="_blank">
+                                                    <img src={Linkedin} alt="linkedin" width={"70px"} height={"70px"}/>
+                                                </Link>
+                                            </div>
+                                            <div className="image-div">
+                                                <Link to={"https://medium.com/@kassiowl34"} target="_blank"> 
+                                                    <img src={Medium} alt="medium" width={"70px"} height={"70px"}/>
+                                                </Link>
+                                            </div>
+                                            <div className="image-div">
+                                                <Link to={"https://github.com/Kassiowl"} target="_blank">
+                                                    <img src={Github} alt="github" width={"70px"} height={"70px"}/>
+                                                </Link>
+                                            </div>
+                                            </Col>
+                                        </Row>
+                                    </Container>
                                 </BrowserRouter>
 
                         </Col>
                         <Col className="tecnology-stacks d-flex flex-column align-items-end">
-                            <h3>Tecnology Stacks</h3>
+                            <h3 className="me-4">Tecnology Stacks</h3>
                             <div>
                                 <BrowserRouter>
                                 <div className="image-div">
