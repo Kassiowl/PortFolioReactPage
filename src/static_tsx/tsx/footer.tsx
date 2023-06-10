@@ -13,10 +13,10 @@ function Footer() {
             <footer className="footer text-white">
                 <Container fluid className="footer-info">
                     <Row>
-                        <Col className="social-media">
+                        <Col className="social-media d-flex flex-column align-items-start">
                                 <h3 className="ms-4">Social media</h3>
                                 <BrowserRouter>
-                                    <Container className="row-container">
+                                    <Container className="row-container" fluid>
                                         <Row>
                                             <Col className="col-12">
                                             <div className="image-div">
@@ -63,21 +63,46 @@ function Footer() {
                             <h3 className="me-4">Tecnology Stacks</h3>
                             <div>
                                 <BrowserRouter>
-                                <div className="image-div">
-                                    <Link to={"https://www.python.org/"} target="_blank" >
-                                        <img src={Python} alt="python" width={"70px"} height={"70px"}/>
-                                    </Link>
-                                </div>
-                                <div className="image-div">
-                                    <Link to={"https://www.djangoproject.com/"} target="_blank" >
-                                        <img src={Django} alt="Django" width={"70px"} height={"70px"}/>
-                                    </Link>
-                                </div>
-                                <div className="image-div">
-                                    <Link to={"https://aws.amazon.com/pt/"} target="_blank" >
-                                        <img src={Aws} alt="aws" width={"70px"} height={"70px"}/>
-                                    </Link>
-                                </div>
+                                <Container className="row-container" fluid>
+                                    <Row>
+                                        <Col className="col-12">
+                                            <div className="image-div">
+                                                <Link to={"https://www.python.org/"} target="_blank" >
+                                                    <img src={Python} alt="python" width={"70px"} height={"70px"}/>
+                                                </Link>
+                                            </div>
+                                            <div className="image-div">
+                                                <Link to={"https://www.djangoproject.com/"} target="_blank" >
+                                                    <img src={Django} alt="Django" width={"70px"} height={"70px"}/>
+                                                </Link>
+                                            </div>
+                                            <div className="image-div">
+                                                <Link to={"https://aws.amazon.com/pt/"} target="_blank" >
+                                                    <img src={Aws} alt="aws" width={"70px"} height={"70px"}/>
+                                                </Link>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col className="col-12">
+                                            <div className="image-div">
+                                                    <Link to={"https://www.python.org/"} target="_blank" >
+                                                        <img src={Python} alt="python" width={"70px"} height={"70px"}/>
+                                                    </Link>
+                                                </div>
+                                                <div className="image-div">
+                                                    <Link to={"https://www.djangoproject.com/"} target="_blank" >
+                                                        <img src={Django} alt="Django" width={"70px"} height={"70px"}/>
+                                                    </Link>
+                                                </div>
+                                                <div className="image-div">
+                                                    <Link to={"https://aws.amazon.com/pt/"} target="_blank" >
+                                                        <img src={Aws} alt="aws" width={"70px"} height={"70px"}/>
+                                                    </Link>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </Container>
                                 </BrowserRouter>
                             </div>
                     </Col>

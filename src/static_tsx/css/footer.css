@@ -3,13 +3,10 @@
 .footer{
     background-color:rgb(23, 21, 21);
     width:100%;
-    bottom: 0;
-    position: absolute;
 }
 
 
 .footer-info{
-  margin-bottom: 50px;
   margin-left: 10px !important;
 }
 
