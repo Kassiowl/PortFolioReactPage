@@ -9,12 +9,14 @@ import { Link, BrowserRouter } from 'react-router-dom';
 import { Col, Container, Row } from "react-bootstrap"
 
 function Footer() {
+    const isMobile = window.innerHeight < 900;
+    const containerFluid = isMobile;
     return (
             <footer className="footer text-white">
                 <Container fluid className="footer-info">
-                    <Row>
-                        <Col className="social-media d-flex flex-column align-items-start">
-                                <h3 className="ms-4">Social media</h3>
+                    <Row className="stack-columns">
+                        <Col lg={6} md={12} className="social-media d-flex flex-column align-items-start">
+                                <h3 className="text-center">Social media</h3>
                                 <BrowserRouter>
                                     <Container className="row-container" fluid>
                                         <Row>
@@ -37,7 +39,7 @@ function Footer() {
                                             </Col>
                                         </Row>
                                         <Row>
-                                            <Col className="col-12">
+                                            <Col>
                                             <div className="image-div">
                                                 <Link to={"https://www.linkedin.com/in/kassiowallace/"} target="_blank">
                                                     <img src={Linkedin} alt="linkedin" width={"70px"} height={"70px"}/>
@@ -57,9 +59,8 @@ function Footer() {
                                         </Row>
                                     </Container>
                                 </BrowserRouter>
-
                         </Col>
-                        <Col className="tecnology-stacks d-flex flex-column align-items-end">
+                        <Col lg={6} md={12}  className="tecnology-stacks d-flex flex-column align-items-end">
                             <h3 className="me-4">Tecnology Stacks</h3>
                             <div>
                                 <BrowserRouter>
@@ -105,7 +106,7 @@ function Footer() {
                                 </Container>
                                 </BrowserRouter>
                             </div>
-                    </Col>
+                        </Col>
                     </Row>
                 </Container>
             </footer>

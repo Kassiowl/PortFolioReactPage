@@ -35,6 +35,16 @@
     animation: toColor 2s forwards;
 }
 
+@media (max-width: 900px) {
+  .stack-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-md-12{
+    width: unset !important;
+  }
+}
+
 @keyframes toColor {
     from {
       filter: grayscale(100%); /* Start with a black and white image */
