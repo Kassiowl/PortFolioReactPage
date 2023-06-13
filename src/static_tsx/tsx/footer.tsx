@@ -9,8 +9,7 @@ import { Link, BrowserRouter } from 'react-router-dom';
 import { Col, Container, Row } from "react-bootstrap"
 
 function Footer() {
-    const isMobile = window.innerHeight < 900;
-    const containerFluid = isMobile;
+   
     return (
             <footer className="footer text-white">
                 <Container fluid className="footer-info">

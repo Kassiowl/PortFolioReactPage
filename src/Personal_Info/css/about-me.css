@@ -3,6 +3,14 @@ h2,p{
     max-width: 500px;
 }
 
+
+@media(max-width:1500px){
+    .about-me{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
 .about-me{
 
     text-align: justify;
