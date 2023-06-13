@@ -26,7 +26,7 @@
   margin-top: -25px;
 }
 
-.footer img:hover{
+.footer img:hover, img:active{
     transform: rotate(10deg);
     transition: transform .3s ease-in-out;
     width: 80px;
