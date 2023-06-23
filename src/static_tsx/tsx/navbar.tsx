@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "../css/navbar.css";
 import Signature from "../../Signature.png";
-import {  Link  } from "react-router-dom"
 
 function NavBar() {
   return (
@@ -14,11 +13,11 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/portfolio" className="nav-element nav-link">Portoflio</Link>
-            <Link to="/testimonials" className="nav-element nav-link">Testimonials</Link>
-            <Link to="/experiences" className="nav-element nav-link">My Experiences</Link>
-            <Link to="/projects" className="nav-element nav-link">Highlight Projects</Link>
-            <Link to="/contact" className="nav-element nav-link">Contact me</Link>
+            <Nav.Link className="nav-element" href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link className="nav-element" href="#testimonials">Testimonials</Nav.Link>
+            <Nav.Link className="nav-element" href="#experiences">My Experiences</Nav.Link>
+            <Nav.Link className="nav-element" href="#projects">Highlight Projects</Nav.Link>
+            <Nav.Link className="nav-element" href="#contact">Contact me!</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
