@@ -1,4 +1,3 @@
-/* UTILITIES */
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +30,6 @@
     
   }
 
-/* NAVBAR STYLING STARTS */
 .navbar {
     display: flex;
     align-items: center;
