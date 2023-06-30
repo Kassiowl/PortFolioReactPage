@@ -18,7 +18,6 @@ function NavBar() {
             <Link to="/portfolio" className="nav-element nav-link">Portfolio</Link>
             <Link to="/testimonials" className="nav-element nav-link" >Testimonials</Link>
             <Link to="/experiences" className="nav-element nav-link" >My Experiences</Link>
-            <Link to="/projects" className="nav-element nav-link">Highlight Projects</Link>
             <Link to="/contact" className="nav-element nav-link">Contact me!</Link>
   
 
