@@ -5,6 +5,11 @@ import Medium from "../social_media_icons/medium.png"
 import Python from "../tecnology_stacks_icons/python.png"
 import Django from "../tecnology_stacks_icons/django.png"
 import Aws from "../tecnology_stacks_icons/aws.png"
+import Javascript from "../tecnology_stacks_icons/javascript.png"
+import Html from "../tecnology_stacks_icons/html.png"
+import Css from "../tecnology_stacks_icons/css.png"
+import ReactImage from "../tecnology_stacks_icons/react.png"
+
 import { Link, BrowserRouter } from 'react-router-dom';
 import { Col, Container, Row } from "react-bootstrap"
 
@@ -86,20 +91,26 @@ function Footer() {
                                     <Row>
                                         <Col className="col-12">
                                             <div className="image-div">
-                                                    <Link to={"https://www.python.org/"} target="_blank" >
-                                                        <img src={Python} alt="python" width={"70px"} height={"70px"}/>
-                                                    </Link>
-                                                </div>
-                                                <div className="image-div">
-                                                    <Link to={"https://www.djangoproject.com/"} target="_blank" >
-                                                        <img src={Django} alt="Django" width={"70px"} height={"70px"}/>
-                                                    </Link>
-                                                </div>
-                                                <div className="image-div">
-                                                    <Link to={"https://aws.amazon.com/pt/"} target="_blank" >
-                                                        <img src={Aws} alt="aws" width={"70px"} height={"70px"}/>
+                                                    <Link to={"https://react.dev/"} target="_blank" >
+                                                        <img src={ReactImage} alt="React" width={"70px"} height={"70px"}/>
                                                     </Link>
                                             </div>
+                                                <div className="image-div">
+                                                    <Link to={"https://www.javascript.com/"} target="_blank" >
+                                                        <img src={Javascript} alt="Javascript" width={"70px"} height={"70px"}/>
+                                                    </Link>
+                                                </div>
+                                                <div className="image-div">
+                                                    <img src={Html} alt="Html" width={"70px"} height={"70px"}/>
+                                                </div>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col className="col-12">
+                                            <div className="image-div">
+                                                <img src={Css} alt="Css" width={"70px"} height={"70px"}/>
+                                            </div>
+                
                                         </Col>
                                     </Row>
                                 </Container>
