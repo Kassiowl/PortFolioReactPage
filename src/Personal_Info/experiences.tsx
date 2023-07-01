@@ -1,5 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
-
+import Python from "../static_tsx/tecnology_stacks_icons/python.png"
+import Django from "../static_tsx/tecnology_stacks_icons/django.png"
+import Javascript from "../static_tsx/tecnology_stacks_icons/javascript.png"
+import Html from "../static_tsx/tecnology_stacks_icons/html.png"
+import CascadingSS from "../static_tsx/tecnology_stacks_icons/css.png"
 function Experiences() {
   return(
     <>
@@ -26,12 +30,16 @@ function Experiences() {
             <Container>
               <Row>
               <h4 className="text-center">Tecnologies Used</h4>
-              <Col sm={12} md={8} lg={6} xxl={5}>
+              <Col sm={6} className="w-50">
                 <h5>Front-End</h5>
+                <img src={Javascript} width={"40px"} height={"40px"} className="me-4"></img>
+                <img src={Html} width={"40px"} height={"40px"} className="me-4"></img>
+                <img src={CascadingSS } width={"40px"} height={"40px"} className="me-4"></img>
               </Col>
-              <Col sm={12} md={8} lg={6} xxl={5}>
-                <h5 className="text-end">Back-End</h5>
-                <p></p>
+              <Col sm={6} className="float-right w-50">
+                <h5>Back-End</h5>
+                <img src={Python} width={"40px"} height={"40px"} className="me-4"></img>
+                <img src={Django} width={"40px"} height={"40px"} className="me-4"></img>
               </Col>
               </Row>
             </Container>
@@ -152,6 +160,7 @@ function Experiences() {
               <h4 className="text-center">Tecnologies Used</h4>
               <Col sm={12} md={8} lg={6} xxl={5}>
                 <h5>Front-End</h5>
+  
               </Col>
               <Col sm={12} md={8} lg={6} xxl={5}>
                 <h5 className="text-end">Back-End</h5>
