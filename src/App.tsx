@@ -25,6 +25,13 @@ function App() {
               <Route path="/contact" element={ < ContactMe />  }/>
             </Routes>
           </BrowserRouter>
+          <div id="stars"></div>
+          <div id="stars"></div>
+          <div id="stars"></div>
+          <div id="stars"></div>
+          <div id="stars"></div>
+          <div id="stars"></div>
+          <div id="stars"></div>
       </div>
       <Footer />
     </div>
