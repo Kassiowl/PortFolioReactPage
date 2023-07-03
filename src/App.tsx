@@ -28,10 +28,6 @@ function App() {
           <div id="stars"></div>
           <div id="stars"></div>
           <div id="stars"></div>
-          <div id="stars"></div>
-          <div id="stars"></div>
-          <div id="stars"></div>
-          <div id="stars"></div>
       </div>
       <Footer />
     </div>
