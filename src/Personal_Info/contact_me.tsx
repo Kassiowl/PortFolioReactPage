@@ -6,7 +6,7 @@ function ContactMe() {
         <Form>
           <Form.Group className="m-4" controlId="exampleForm.ControlInput1">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="name@example.com" />
+            <Form.Control type="email" placeholder="your@email.com" />
           </Form.Group>
           <Form.Group className="m-4" controlId="subject">
             <Form.Label>subject</Form.Label>
