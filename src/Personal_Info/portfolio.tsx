@@ -3,7 +3,7 @@ import "./css/portfolio.css"
 function Portfolio() {
   return(
     <>
-      <Container fluid="xs">
+      <Container fluid="xs mt-4">
         <Row>
         <Col sm={12} md={8} lg={6} xxl={4}>
           <div className="mb-4 project">
