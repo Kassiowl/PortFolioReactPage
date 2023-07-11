@@ -3,8 +3,27 @@ import Picture from "./picture/person.png"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Badge, Button } from "react-bootstrap";
+import { getInfo } from '.././request/axios_request'
+import { AxiosResponse } from "axios";
+
+
+async function getAboutMe(){
+  let result: Promise<AxiosResponse> = getInfo()
+  let title: string = (await result).data['about_me'].name
+  let paragraphs: Object =  (await result).data['about_me']['paragraph']
+
+  let paragraph: keyof typeof paragraphs; 
+
+  for(paragraph in paragraphs){
+    console.log(`${paragraphs[paragraph]}`);
+  }
+
+ 
+
+}
+
 function AboutMe() {
+  getAboutMe()
   return(
     <div className="about-me">
         <Container fluid="xs">
