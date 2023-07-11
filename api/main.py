@@ -1,4 +1,4 @@
-from typing import Union
+
 
 from fastapi import FastAPI
 
@@ -15,7 +15,6 @@ def read_root():
 @app.get("/kassio")
 def read_root():
     kassio = Kassio()
-
     return {
                 "about_me": kassio.about_me,
                 "experiences": kassio.experiences,
