@@ -2,7 +2,9 @@
 
 from fastapi import FastAPI
 
-from Domain.personal_info.kassio import Kassio
+from repo.personal_info.kassio import Kassio
+
+
 
 app = FastAPI()
 

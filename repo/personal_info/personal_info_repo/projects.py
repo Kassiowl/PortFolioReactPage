@@ -2,7 +2,7 @@ import json
 from Domain.entities.project import Project
 
 def get_projects():
-    json_open = open("Domain/personal_info/personal_info_repo/personal_info.json", "r")
+    json_open = open("repo/personal_info/personal_info_repo/personal_info.json", "r")
     json_loads = json.loads(json_open.read())
     
     projects = json_loads['projects']

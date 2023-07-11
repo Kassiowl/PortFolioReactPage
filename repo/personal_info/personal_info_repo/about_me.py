@@ -2,7 +2,7 @@ from Domain.entities.about_me import AboutMe
 import json
 
 def get_about_me():
-    json_open = open("Domain/personal_info/personal_info_repo/personal_info.json", "r")
+    json_open = open("repo/personal_info/personal_info_repo/personal_info.json", "r")
 
     json_loads = json.loads(json_open.read())
 

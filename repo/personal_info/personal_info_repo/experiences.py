@@ -4,7 +4,7 @@ from Domain.entities.experiences import Experience
 
 def get_experiences():
   
-    json_open = open("Domain/personal_info/personal_info_repo/personal_info.json", "r")
+    json_open = open("repo/personal_info/personal_info_repo/personal_info.json", "r")
     json_loads = json.loads(json_open.read())
     
     experiences = json_loads['experiences']
