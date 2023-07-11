@@ -16,7 +16,7 @@ function ContactMe() {
             <Form.Label>message</Form.Label>
             <Form.Control as="textarea" className="text-area-custom-css" rows={10} />
           </Form.Group>
-          <button className="btn btn-lg btn-info ms-4">Send</button>
+          <button className="btn btn-lg ms-4">Send</button>
         </Form>
       </Container>
       );

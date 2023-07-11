@@ -108,7 +108,7 @@ function Testimonials() {
               <Form.Label>Linkedin profile</Form.Label>
               <Form.Control type="text" placeholder="https://www.linkedin.com/in/kassiowallace/"/>
             </Form.Group>
-            <button className="btn btn-lg btn-info ms-4">Send</button>
+            <button className="btn btn-lg ms-4">Send</button>
           </Form>
           </Col>
         </Row>

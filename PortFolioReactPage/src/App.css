@@ -27,6 +27,11 @@ body{
   width: 100%;
 }
 
+.btn{
+  background-color: orangered !important;
+  color: white !important;
+}
+
 
 #stars {
   width: 1px;
