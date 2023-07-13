@@ -2,7 +2,8 @@
     "about_me":{
         "paragraphs":{
             "p1": "My name is Kassio Wallace, and i'm a programmer passionate to solve problems, specially low level ones, for some time, i did web software projects, learning back-end tecnologies like django and front-end tecnologies like React",
-            "p2": "i studied and still study software architecture, with the purpose to create scalable and long-run, lately, i start to study computer graphics programming as it's one of my biggest will to learn and, understand low-level programming and concepts."
+            "p2": "I studied and still study software architecture, with the purpose to create scalable and long-run, lately, i start to study computer graphics programming as it's one of my biggest will to learn and, understand low-level programming and concepts.",
+            "p3": "I'am doing software enginnering at college, current at eight period. I'll graduate in december/2023"
         }
     },
     "experiences":{
