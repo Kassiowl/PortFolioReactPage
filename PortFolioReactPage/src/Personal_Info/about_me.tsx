@@ -17,26 +17,34 @@ async function getAboutMe(){
   return Object.values(paragraphs)
  }
 
+
+function useSetParagraphs(){
+
+  
+    const [paragraphs, setparagraphs] = useState<Array<string>>([]);
+  
+  
+    useEffect(() =>{
+      const fetchAboutMe = async() =>{
+        try{
+      
+          const about_me = await getAboutMe()
+          setparagraphs(about_me)
+        }
+        catch{
+          setparagraphs(["something went wrong"])
+        }
+  
+      }
+      fetchAboutMe()
+    }, [])
+
+    return paragraphs
+}
+
 function AboutMe() {
 
-  const [paragraphs, setparagraphs] = useState<Array<string>>([]);
-
-
-  useEffect(() =>{
-    const fetchAboutMe = async() =>{
-      try{
-    
-        const about_me = await getAboutMe()
-        setparagraphs(about_me)
-      }
-      catch{
-        setparagraphs(["something went wrong"])
-      }
-
-    }
-    fetchAboutMe()
-  }, [])
-
+  const paragraphs = useSetParagraphs();
 
   return(
     <div className="about-me">
