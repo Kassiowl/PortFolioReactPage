@@ -15,15 +15,13 @@ async function getAboutMe(){
 
   console.log(Object.values(paragraphs))
   return Object.values(paragraphs)
- }
+}
 
 
 function useSetParagraphs(){
 
-  
     const [paragraphs, setparagraphs] = useState<Array<string>>([]);
-  
-  
+
     useEffect(() =>{
       const fetchAboutMe = async() =>{
         try{
