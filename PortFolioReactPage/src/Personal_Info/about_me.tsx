@@ -13,17 +13,9 @@ async function getAboutMe(){
   let result: Promise<AxiosResponse> = getInfo()
   let paragraphs: Object =  (await result).data['about_me']['paragraph']
 
-  let paragraph: keyof typeof paragraphs; 
   console.log(Object.values(paragraphs))
   return Object.values(paragraphs)
-
-  for(paragraph in paragraphs){
-    console.log(`${paragraphs[paragraph]}`);
-  }
-
- 
-
-}
+ }
 
 function AboutMe() {
 
