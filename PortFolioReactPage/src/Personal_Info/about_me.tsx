@@ -13,7 +13,6 @@ async function getAboutMe(){
   let result: Promise<AxiosResponse> = getInfo()
   let paragraphs: Object =  (await result).data['about_me']['paragraph']
 
-  console.log(Object.values(paragraphs))
   return Object.values(paragraphs)
 }
 
